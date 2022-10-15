@@ -1,0 +1,18 @@
+{
+  "name": "test-exersize",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.55.0"
+  }
+}

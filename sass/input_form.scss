@@ -1,0 +1,193 @@
+
+.container {
+    display: flex;
+    .slider {
+        background: #2B4BFB;
+        max-width: 500px;
+        max-height: 100vh;
+       padding-top: 66px;
+       padding-left: 64px;
+       position: relative;
+    
+       .logo {
+        margin-bottom: 274px;
+       }
+       .slider_text {
+        p {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            color: #FFFFFF;
+            max-width: 370px;
+        }
+        p:first-child {
+            padding-bottom: 20px;
+        }
+       }
+       .slider_circle {
+        padding-top: 495px;
+        padding-bottom: 45px;
+       }
+    
+       .elipse {
+        position: absolute;
+        left: 140px;
+        bottom: -333px;
+       }
+    
+    }
+    .form_user {
+        width: 1420px;
+        background: #F5F5F5;
+        position: relative;
+        .header_btn {
+            display: flex;
+            justify-content:space-between ;
+        .back_btn {
+            padding-top: 77px;
+            padding-left: 64px;
+            margin-bottom: 126px;
+            display: flex;
+            svg {
+                position: absolute;
+                top: 80px;
+                left: 58px;
+            }
+            p {
+                font-family: 'Gilroy';
+                font-style: bold;
+                font-weight: 700;
+                font-size: 14px;
+                color: #000007;
+                padding-left: 10px;
+            }
+            }
+        }
+        .register_btn {
+            padding-top: 67px;
+            padding-right: 96px;
+            button {
+                width: 183px;
+                height: 48px;
+                border: 1px solid #2B4BFB;
+                border-radius: 68px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                color: #2B4BFB;
+            }
+            
+        }
+        .user_info {
+            max-width: 528px;
+            background: #FFFFFF;
+            margin: auto;
+            h3 {
+                font-family: 'Gilroy';
+                font-style: bold;
+                font-weight: 700;
+                font-size: 32px;
+                padding: 64px 0 6px 64px;
+            }
+            form {
+                padding-left: 64px;
+                position: relative;
+                p {
+                    font-family: 'Gilroy';
+                    font-style: bold;
+                    font-weight: 600;
+                    font-size: 15px;
+                    color: #454545;
+                    padding-bottom: 17px;
+                    padding-top: 26px;
+                }
+                
+                input {
+                    width: 400px;
+                    height: 64px;
+                    left: 1010px;
+                    top: 478px;
+                    background: #FFFFFF;
+                    border: 1px solid #E1E1E1;
+                    border-radius: 4px;
+                }
+                svg {
+                    position: absolute;
+                    top: 211px;
+                    right: 85px;
+                }
+                ::placeholder {
+                    padding-left: 20px;
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #979797;
+                }
+            }
+            .checkbox {
+                display: flex;
+                padding-left: 64px;
+                padding-top: 16px;
+                padding-bottom: 32px;
+                input {
+                    width: 20px;
+                    height: 20px;
+                    background: #2B4BFB;
+                    border-radius: 2px;
+                }
+                p {
+                    font-family: 'Gilroy';
+                    font-style: bold;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 17px;
+                    color: #000007;
+                    padding-left: 8px;
+                }
+            }
+            .sing_in {
+                button {
+                    width: 171px;
+                    height: 64px;
+                    background: #2B4BFB;
+                    border-radius: 4px;
+                    border: none;
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #FFFFFF;
+                    margin-left: 64px;
+                    margin-bottom: 64px;
+                }
+                a {
+                    font-family: 'Gilroy';
+                    font-style: bold;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #000007;
+                    text-decoration: none;
+                    padding-left: 40px;
+                }
+            }
+        }
+        .footer_text {
+            display: flex;
+            margin-top: 240px;
+            margin-left: 64px;
+            margin-bottom: 40px;
+            justify-content: space-between;
+            color: #717171;
+            p:last-child {
+                margin-right: 64px;
+            }
+        }
+
+    }
+}
