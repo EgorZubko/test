@@ -4,7 +4,6 @@
     .slider {
         background: #2B4BFB;
         max-width: 500px;
-        max-height: 100vh;
        padding-top: 66px;
        padding-left: 64px;
        position: relative;
@@ -28,12 +27,15 @@
        .slider_circle {
         padding-top: 495px;
         padding-bottom: 45px;
+        overflow: hidden;
        }
     
        .elipse {
         position: absolute;
         left: 140px;
         bottom: -333px;
+        width: 100px;
+        height: 100px;
        }
     
     }
